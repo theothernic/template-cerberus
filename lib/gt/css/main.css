@@ -1,0 +1,311 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic);
+
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "Noticia Text", Georgia, Garamond, "Times New Roman", Times, serif;
+}
+
+a {
+    color: #1A62A3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1.page-heading
+{
+    padding: .3em !important;
+}
+
+.punchout {
+    margin: 1em !important;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+h1.blue,
+h2.blue,
+h3.blue,
+h4.blue,
+h5.blue,
+h6.blue
+{
+    border-top: solid 2px #1A62A3;
+    font-family: "Lato", "Open Sans", Helvetica, Arial, sans-serif !important;
+    font-weight: bold;
+    color: #1A62A3;
+}
+
+h1.goldenrod,
+h2.goldenrod,
+h3.goldenrod,
+h4.goldenrod,
+h5.goldenrod,
+h6.goldenrod
+{
+    border-top: solid 2px goldenrod;
+    font-family: "Lato", "Open Sans", Helvetica, Arial, sans-serif !important;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+h1.brown,
+h2.brown,
+h3.brown,
+h4.brown,
+h5.brown,
+h6.brown
+{
+    border-top: solid 2px #B4A28F;
+    font-family: "Lato", "Open Sans", Helvetica, Arial, sans-serif !important;
+    font-weight: bold;
+    color: #B4A28F;
+}
+
+h1.gray,
+h2.gray,
+h3.gray,
+h4.gray,
+h5.gray,
+h6.gray
+{
+    border-top: solid 2px #666666;
+    font-family: "Lato", "Open Sans", Helvetica, Arial, sans-serif !important;
+    font-weight: bold;
+    color: #666666;
+}
+
+.masthead {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #ffffff;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: .85em;
+}
+
+.masthead header
+{
+    margin: 0 auto;
+    padding: .4em 0;
+    width: 96%;
+}
+
+.masthead header img.logo
+{
+    padding: 1em .5em .5em;
+    clear: right;
+}
+
+.masthead header .leftist {
+    float: left;
+    clear: both;
+}
+
+.masthead header .user-block
+{
+    padding: 1em .6em;
+    color: #C68038;
+}
+
+.masthead header .user-block span.co_ent_screen_name
+{
+    font-weight: 700;
+    font-weight: bold;
+}
+
+.masthead header nav.sidenav {
+    float: right;
+    width: 45%;
+    text-align: right;
+}
+
+.masthead header nav.sidenav ul {
+    display: inline-block;
+}
+
+.masthead header nav.sidenav ul li {
+    display: inline;
+    padding: .2em .6em;
+}
+
+nav.main
+{
+    margin: 0 auto;
+    padding: 0;
+    width: 96%;
+}
+
+nav.main ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background: #1A62A3;
+}
+
+nav.main ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav.main ul li a {
+    margin: 0;
+    padding: 1em;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    line-height: 2.5em;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav.main ul li a:hover
+{
+    text-decoration: underline;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-size: .85em;
+}
+
+.content section
+{
+    margin: 0 auto;
+    width: 96%;
+    background: #ffffff;
+}
+
+.content section .body {
+    padding: 1em;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6
+{
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+
+h1.callout,
+h2.callout,
+h3.callout,
+h4.callout,
+h5.callout,
+h6.callout
+{
+    font-weight: bold;
+}
+
+.content,
+.content-light {
+    background: #F7F6F4;
+}
+
+.content-darkblue {
+    background: #005099;
+}
+
+.content-darkblue a {
+    color: #E0EAF4;
+    text-decoration: none;
+}
+
+.content-darkblue a:hover {
+    text-decoration: underline;
+}
+
+.content-darkblue section {
+    background: #1A62A3;
+    color: #ffffff;
+}
+
+.content-darkblue section .body {
+    color: #ffffff;
+}
+
+.content-darkgray {
+    background: #333333;
+}
+
+.content-darkgray section {
+    background: #666666;
+}
+
+.content-darkgray section .body {
+    color: #ffffff;
+}
+
+
+.content-goldenrod {
+    background: darkgoldenrod;
+}
+
+.content-goldenrod section {
+    background: goldenrod;
+}
+
+.content-goldenrod section .body {
+    color: #ffffff;
+}
+
+.content-brown {
+    background: #7C7062;
+}
+
+.content-brown section
+{
+    background: #B4A28F;
+}
+
+.content-goldenrod section .body {
+    color: #ffffff;
+}
+
+.content-litegray {
+    background: #666666;
+}
+
+.content-litegray section
+{
+    background: #999999;
+}
+
+.content-litegray section .body {
+    color: #ffffff;
+}
+
+.content-litegray a {
+    color: #bedfff;
+    text-decoration: none;
+}
+
+.content-litegray a:hover {
+    text-decoration: underline;
+}
+
+
+.icon-man16 {
+    width: 16px;
+    height: 16px;
+}
+
+.icon-man24 {
+    width: 24px;
+    height: 24px;
+}
